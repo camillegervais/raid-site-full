@@ -8,10 +8,12 @@ import {
 import { useEffect } from 'react';
 import Inscription from './pages/Inscription';
 import Home from './pages/Home';
+import HelloWorld from './HelloWorld';
 
 function App() {
 
   return (
+    /*
     <Router>
       <Routes>
         <Route path='/inscription' element={<Inscription/>}></Route>
@@ -19,6 +21,10 @@ function App() {
         <Route path='/raid' element={<Inscription/>}></Route>
       </Routes>
     </Router>
+    */
+   <div className="App">
+    <HelloWorld />
+   </div>
     
   );
 }
