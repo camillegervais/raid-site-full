@@ -1,0 +1,32 @@
+
+
+
+
+.header-spacer{
+  height: 140px; /* not responsive */
+}
+
+body{
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+
+
+
+.elem-container{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.element{
+  text-align: center;
+  padding: 100px 15px;
+}
+
+
+
+
+

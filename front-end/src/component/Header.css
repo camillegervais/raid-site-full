@@ -1,0 +1,91 @@
+.top{
+    display: flex;
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.header-button{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    padding: 20px 50px;
+}
+
+
+.header-button:hover {
+    /* Add your hover animation styles here */
+    color: #000000;
+    background: rgba(255, 255, 255, 0.5);
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.dropdown-menu:hover{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    margin-top: 0px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    transition-delay: 0.5s;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 100%;
+    left: 0;
+}
+
+
+/*
+.header-button:hover .dropdown-menu,
+.dropdown-menu:hover {
+    display: flex;
+    
+}
+*/
+
+.menu-elem{
+    z-index: 1;
+    display: none;
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    transition: 0.3;
+    width: 100%;
+    text-align: center;
+}
+
+.menu-elem:hover{
+    color: white;
+    background-color: grey;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+
+.logo{
+    padding: 10px 10px;
+    transition: transform 0.5s;
+}
+
+.logo:hover {
+    transform: rotate(45deg);
+}
+
+.logo-link{
+    width: 4%;
+}
