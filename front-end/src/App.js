@@ -8,7 +8,7 @@ import {
 import { useEffect } from 'react';
 import Inscription from './pages/Inscription';
 import Home from './pages/Home';
-import HelloWorld from './HelloWorld';
+import HelloWorld from './pages/HelloWorld';
 
 function App() {
 

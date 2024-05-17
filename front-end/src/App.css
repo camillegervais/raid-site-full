@@ -13,7 +13,9 @@ body{
 
 
 
-
+.App{
+  background-color: darkmagenta;
+}
 
 .elem-container{
   display: flex;
