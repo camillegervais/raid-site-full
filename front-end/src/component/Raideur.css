@@ -1,0 +1,25 @@
+.container{
+    border: 2px solid black;
+    background-color: darkmagenta;
+    color: yellow;
+    padding: 50px;
+    border-radius: 20px;
+    margin: 50px 120px;
+    transition: all 0.2s;
+}
+
+.container:hover{
+    background-color: yellow;
+    color: darkmagenta;
+    border: 2px solid darkmagenta;
+    transform: scale(1.05);
+    box-shadow: 10px 10px 10px black;
+}
+
+p{
+    transition: all 1s;
+}
+
+p:hover{
+    color: red;
+}
